@@ -9,6 +9,7 @@ use ipc_api::subnet_id::SubnetID;
 
 use super::subnet::SubnetManager;
 pub use manager::EthSubnetManager;
+pub use manager::BtcSubnetManager;
 
 use ipc_actors_abis::subnet_actor_checkpointing_facet;
 
